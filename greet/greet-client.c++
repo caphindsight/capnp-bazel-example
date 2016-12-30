@@ -1,6 +1,6 @@
 #include <iostream>
 #include "third_party/capnproto/c++/src/capnp/ez-rpc.h"
-#include "greet-service.capnp.h"
+#include "greet/greet-service.capnp.h"
 
 int main(int argc, char *argv[]) {
     if (argc != 2) {

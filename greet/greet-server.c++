@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include "third_party/capnproto/c++/src/capnp/ez-rpc.h"
-#include "greet-service.capnp.h"
+#include "greet/greet-service.capnp.h"
 
 inline int Rand() {
     return rand();
